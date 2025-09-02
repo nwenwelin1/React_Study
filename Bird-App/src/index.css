@@ -1,0 +1,100 @@
+
+#root {
+  padding: 0px 15px 10px 10px;
+  background-color: black;
+  color: white;
+  /* font-family: "Quicksand";
+  color: #333; */
+
+}
+
+.navbar a {
+
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+.navbar a:hover {
+  color: aqua;
+}
+.home,.bird-details{
+  padding-top: 12%;
+}
+.contact-card{
+  box-shadow: 1px 1px 1px 1px #888888;
+  padding: 15px;
+  border-radius: 5px;
+  height: 150px;
+  margin-left: 40px;
+  /* background-color: rgb(149, 177, 177); */
+
+}
+
+.bird-list a,.card-body a{
+    text-decoration: none;
+    color: white;
+}
+/* blog details page */
+.description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .bird-details div {
+    margin: 20px 0;
+  }
+  .bird-details button {
+    background: #0cac21;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .bird-info{
+  box-shadow: 1px 1px 1px 1px #888888;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.bird-info label{
+  font-size: x-large;
+
+}
+.bird-info p{
+  padding-top: 20px;
+  font-size: small;
+  
+}
+.bird-list,.home-img-text{
+  box-shadow: 1px 1px 1px 1px #888888;
+  padding: 2px;
+  border-radius: 10px;
+}
+.image-container {
+  height: 150px; /* Set the desired fixed height */
+  overflow: hidden; /* Ensure the image does not overflow its container */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill its container */
+  height: 100%; /* Make the image fill its container */
+  object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+}
+.moving-text-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.moving-text {
+  animation: moveRightToLeft 15s linear infinite; /* Adjust duration and timing function as needed */
+}
+/* for color brightness */
+.textlight{
+  filter: brightness(80%);
+  color: white;
+}
